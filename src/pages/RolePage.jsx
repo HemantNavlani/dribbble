@@ -41,7 +41,7 @@ function RolePage() {
     <>
     <div className='flex justify-start items-center gap-x-4 m-4'>
         <img src={logoPink} alt="" />
-        <Link to={'/profile'} className='w-8 h-8 bg-gray-300 flex p-2 rounded'>
+        <Link to={'/dribble/profile'} className='w-8 h-8 bg-gray-300 flex p-2 rounded'>
         <IoIosArrowBack className='justify-center items-center cursor-pointer' />
         </Link>
     </div>
