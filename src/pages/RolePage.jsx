@@ -29,7 +29,7 @@ function RolePage() {
     const handleSubmit = (e)=>{
         e.preventDefault();
         //make database calls
-        navigate('/verify')
+        navigate('/dribbble/verify')
     }
     document.addEventListener("keypress", function(event) {
         // event.preventDefault();

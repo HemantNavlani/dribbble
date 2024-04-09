@@ -20,7 +20,7 @@ function Verify() {
   };
     useEffect(()=>{
       setTimeoutId(setTimeout(()=>{
-        navigate('/')
+        navigate('/dribbble/')
       },5000))
     },[])
 

@@ -14,7 +14,7 @@ function Home() {
         <p className='text-center mt-12 font-semibold mb-16'>Get inspired by the work of millions of top-rated designers & agencies around the world.</p>
         <button className='flex justify-center p-4 text-white font-semibold rounded-xl mb-32 bg-[#E94B8B] hover:bg-[#f63683] w-32 h-8 items-center' onClick={()=>{
             if (active) navigate('#')
-            else navigate('/signup')
+            else navigate('/dribbble/signup')
             // here more pages can be added to go to from here 
         }}>
         

@@ -33,7 +33,7 @@ function Signup() {
 
         //here we can implement the code of sending the form data to backend 
         dispatch(signup({name,userName,email,password,check}))
-        navigate('/profile')
+        navigate('/dribbble/profile')
     }
 
     const validateEmail = (email) => {

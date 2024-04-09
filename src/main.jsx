@@ -16,31 +16,31 @@ const router = createBrowserRouter([
     element:<App/>,
     children:[
       {
-        path:'/',
+        path:'/dribbble/',
         element:<HomePage/>
       },
       {
-        path:'/home',
+        path:'/dribbble/home',
         element:(
             <HomePage/>
         )
       },
       {
-        path:'/signup',
+        path:'/dribbble/signup',
         element:<SignupPage/>
       },
       {
-        path:'/profile',
+        path:'/dribbble/profile',
         element:<ProfilePage/>
       },
       {
-        path:'/role',
+        path:'/dribbble/role',
         element:(
             <RolePage/>
         )
       },
       {
-        path:'/verify',
+        path:'/dribbble/verify',
         element:(
             <VerifyEmailPage/>
         )
@@ -52,5 +52,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
      <RouterProvider router={router}/>
-     </Provider>
+    </Provider>
 )
