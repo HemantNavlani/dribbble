@@ -50,7 +50,7 @@ function Verify() {
         setChange(!change)
         dispatch(changeMail(mail))
         setTimeoutId(setTimeout(()=>{
-          navigate('/')
+          navigate('/dribbble/')
         },5000))
     }}>Submit</button>
     </div>
