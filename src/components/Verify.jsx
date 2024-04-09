@@ -61,7 +61,9 @@ function Verify() {
     <p className='text-gray-500 mt-4'>Click the confirmation link in that email to begin using Dribbble.</p>
     <p className='text-gray-500 mt-4 text-center'>Didn&apos;t receive the email? Check your Spam folder, it may have been caught by a filter. If <br /> you still don&apos;t see it, you can <span className='font-semibold text-[#EA4B8B]'> resend the confirmation email. </span></p>
 
-    <p className='text-gray-500 mt-4 mb-16 '>Wrong email address?  <button className='text-[#EA4B8B] font-semibold' onClick={()=>{
+    <p className='text-gray-500 mt-4 mb-16 '>Wrong email address? 
+    
+     <button disabled={change} className='text-[#EA4B8B] font-semibold' onClick={()=>{
       setChange(!change)
       clearTimeout(timeoutId)
       setTimeoutId()
