@@ -41,9 +41,13 @@ function RolePage() {
     <>
     <div className='flex justify-start items-center gap-x-4 m-4'>
         <img src={logoPink} alt="" />
-        <Link to={'/dribble/profile'} className='w-8 h-8 bg-gray-300 flex p-2 rounded'>
-        <IoIosArrowBack className='justify-center items-center cursor-pointer' />
-        </Link>
+        <div className='w-8 h-8 bg-gray-300 flex p-2 rounded'>
+        <IoIosArrowBack className='justify-center items-center cursor-pointer' onClick={
+            ()=>{
+                useNavigate('/dribbble/profile')
+            }
+        } />
+        </div>
     </div>
     <h1 className='text-center text-4xl font-bold mb-4'>What brings you to dribble ?</h1>
     <p className='text-gray-500 text-center'>Select the options that best describes you. Don&apos;t worry, you can explore other options later.</p>
