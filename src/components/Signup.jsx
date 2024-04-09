@@ -61,7 +61,7 @@ function Signup() {
         <div className='w-2/3 '>
 
         <p className='text-right m-5'>
-                Already a member? <Link to='/signup' className='text-[#6456ad] hover:underline cursor-pointer'>Signin</Link>
+                Already a member? <Link to='#' className='text-[#6456ad] hover:underline cursor-pointer'>Signin</Link>
        </p>
             
             <div className='mx-48 my-20'>
